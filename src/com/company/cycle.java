@@ -21,8 +21,7 @@ public class cycle {
         }while (month<12);
         zp=0;
         System.out.println("Ex3.");
-        for (month = 1; month <= 12; month++)
-        {
+        for (month = 1; month <= 12; month++){
             zp = zp + 1000;
             System.out.println("месяц = " + month + ", З/п = " + zp);
         }

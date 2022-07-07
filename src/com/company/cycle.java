@@ -5,7 +5,7 @@ public class cycle {
 используя циклы while/ do ... while, for. (Все три реализации)*/
     public static void main (String[] args)
     {
-        int month=0,zp=0;
+        int i,month=0,zp=0;
         System.out.println("Ex1.");
         while (month<12){
             zp=zp+1000;
@@ -25,5 +25,11 @@ public class cycle {
             zp = zp + 1000;
             System.out.println("месяц = " + month + ", З/п = " + zp);
         }
+        System.out.println("Выводим на экран «5,4,3,2,1» используя цикл for..");
+        String str="";
+        for (i = 5; i > 1; i--){
+            System.out.print(i+",");
+        }
+        System.out.println(i);
     }
 }
